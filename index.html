@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhila Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/6e9594ad2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science (IoT) Engineering Student</p>
+            <h1>Hi, I'm <span>Akhila</span><br>from India</h1>
+            <p class="success-message">Welcome to my success story — building smart solutions for the future!</p>
+            <a href="#portfolio" class="btn">Explore My Work</a>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bgm.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Gouraram Akhila, currently pursuing a B.Tech in Computer Science and Engineering (IoT) at Malla Reddy Engineering College for Women. I'm passionate about innovation, smart systems, and real-world tech applications. I thrive in team environments and enjoy solving challenges using a blend of coding and creativity.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Languages</span><br>Java, Python, C</li>
+                        <li><span>Technologies</span><br>HTML, CSS</li>
+                        <li><span>Tools</span><br>VS Code, IDLE, Eclipse, Microsoft Tools</li>
+                        <li><span>Languages Known</span><br>English, Hindi, Telugu</li>
+                        <li><span>Soft Skills</span><br>Communication, Teamwork, Leadership</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>May 2024 – July 2024</span><br>Intern at Black Pearls – Developed an E-Commerce Web Application with responsive UI and secure payment integration.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022 – 2026</span><br>B.Tech, Malla Reddy Engineering College for Women – GPA: 9.48</li>
+                        <li><span>2020 – 2022</span><br>Kakatiya Junior College – 96.3%</li>
+                        <li><span>2019 – 2020</span><br>Sri Chaitanya Techno School – GPA: 10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>E-Commerce Web Application</h2>
+                <p>Designed a seamless online shopping experience with responsive UI, secure payments, and dynamic catalog features.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h2>Geo-Vision Landmark Identifier</h2>
+                <p>AI-powered app that provides landmark details, with plans for multilingual support and cultural insights.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-life-ring"></i>
+                <h2>Wearable Water Safety Device</h2>
+                <p>Hardware project that prevents drowning using a smart wristband with automatic airbag deployment and GPS tracking.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Section (Text-based instead of images) -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Project Highlights</h1>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h2>Geo-Vision</h2>
+                <p>AI-based app that describes landmarks with location and cultural details. Future plans include multilingual and accessibility upgrades.</p>
+                <span class="tech-stack">Tech: Python, AI Models, Streamlit</span>
+            </div>
+            <div class="portfolio-card">
+                <h2>Wearable Water Safety Device</h2>
+                <p>Smart wrist-worn device that deploys an airbag and sends GPS data during water emergencies.</p>
+                <span class="tech-stack">Tech: IoT, Sensors, Microcontroller</span>
+            </div>
+            <div class="portfolio-card">
+                <h2>E-Commerce Web App</h2>
+                <p>Feature-rich platform for online shopping built with responsive UI, product catalog, and payment gateway integration.</p>
+                <span class="tech-stack">Tech: HTML, CSS, JavaScript</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>akhilagouraram25@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7416841816</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Akhila-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <h2>Enter Details</h2>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© Akhila. Made with <i class="fa-solid fa-heart"></i> ..</p>
+    </div>
+</div>
+
+<!-- Script for Tabs -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
